@@ -40,6 +40,7 @@ for each data "N" in data list
 
  - The time complexity for this can be O(1) or O(n) depending on the amount of times
    needing to be run. If you look for the first instance, then it's O(1). Else,
-   if you are seeking all occurances, then it will be O(n).
+   if you are seeking all occurances, then it will be O(n). Because the For-Loops are
+   nested, we now see the time complexity of O(n^2). Which depending on if anything else is 
+   nested - could become very time costly. This is not ideal.
 
-   
