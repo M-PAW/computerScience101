@@ -38,3 +38,22 @@
     - θ(n), Equal to                | θ(n), Equal to n
     - Ω(n), Slower or Equal to      | Ω(n^2), Slower or equal to n^2
     - ω(n), Slower Than             | ω(n), Slower than n^3
+
+
+# When a program runs through its steps, such as: load, execute 1, execute 2, save.
+## it looks like the following
+
+1. Load: o(n^2)
+2. Execute Step 1: o(nlogn)
+3. Execute Step 2: o(n)
+4. Save: o(1)
+
+### To compute the total time for all of this we add it all together.
+ - n^2 + nlogn + n + 1
+
+ - The time complexity is automatically set by the slowest part of the whole.
+#### Our time complexity is best: o(n^2) -> worst: o(n^3)
+
+
+
+
