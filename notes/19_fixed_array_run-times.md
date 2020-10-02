@@ -1,37 +1,37 @@
 
 # Fixed Array Run-Times
 
-## Insert (Random) - Linear Time
+## Insert (Random) - Linear Time O(n)
  - To insert a random to the front of the array, the average run-time will
    be something close to O(n)
 
-## Insert (Front) - Linear Time
+## Insert (Front) - Linear Time O(n)
  - Insertion to the front will be O(n) because we need to move all of the
    values down by one.
 
-## Insert (Back) - Constant Time
+## Insert (Back) - Constant Time O(n)
  - Insertion to the back uses constant time of O(1), as nothing needs to be changed
    or moved.
 
-## Delete (Front) - Linear Time
+## Delete (Front) - Linear Time O(n)
  - When we delete an item from the front, we also need to move all of the remaining items
    to the left so that the array once again begins at 0.
  - The time complexity is O(n).
 
-## Delete (Back) - Constant Time
+## Delete (Back) - Constant Time O(1)
  - This, much like insertion, has no need to adapt or change the array after removing an item.
    The most that may need to happen is a decrease in the declared size.
 
 - The time complexity is that on O(1)
 
-## Search (Unsorted) - Linear Time
+## Search (Unsorted) - Linear Time O(n)
 
  - In an unsorted array, it becomes essential to go through all  of the values
    one by one while searching for your target.
 
  - It has a best and worst case, but on average it is O(n).
 
-## Search (Sorted)
+## Search (Sorted) - O(logn)
 
  - As this data set is sorted, and in a particular order, it is possible to
    search by using mid-points to hunt for a target value. Which in essence lowers the 
