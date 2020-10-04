@@ -21,19 +21,28 @@
 
  - The average run-time is log(n), an inverse exponential equations.
 
- # BST run-times
+# BST run-times
  operation   |   Average   |   Worst Case
  Search          o(log n)       o(n)
  Insert          o(log n)       o(n)
  Delete          o(log n)       o(n)
 
 
- # Things to Lookup
+# Things to Lookup
  1. AVL
  2. Red Black Tree
 
 
 
- # Tree Traversals
- 
+# Tree Traversals
+ - In order: Left, Root, Right
+    - Goes down the target sub-tree, taking the left if available, if not then go right.
+      Treating each nodes passed as a root, and collecting it last as it returns to the
+      root at the top before collecting it and then moving to the right side of the tree.
+      The data returned should be in either ascending or descending order.
 
+ - Pre-order: Root, Left, Right
+    - Grab the root, then explore the left sub-tree, then left, then the right.
+
+ - Post-order: Left, Right, Root
+    - Explore the left sub-tree first, then right, then grab the main root.
