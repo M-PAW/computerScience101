@@ -46,3 +46,10 @@
 
  - Post-order: Left, Right, Root
     - Explore the left sub-tree first, then right, then grab the main root.
+
+
+# Types of Trees
+ 
+ - Database Indexing
+
+ - Decision Trees, used in Machine Learning
