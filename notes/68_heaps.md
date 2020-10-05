@@ -25,5 +25,5 @@
           then use recursion to move everything to its proper place.
     - GetMin: run-time 0(1)
 
-# Djikstras Algorithm uses a heap.
+# Dijkstra's Algorithm uses a heap.
  - It works off of finding the shortest path between beginning and end.    
